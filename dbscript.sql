@@ -59,7 +59,7 @@ VALUES
 	8,
 	5,
 	15,
-	"others"
+	"others",
     '["Glutten"]'
 ),
 	-- name,
