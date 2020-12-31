@@ -13,7 +13,8 @@ CREATE TABLE products (
 	rating NUMERIC,
 	servings INTEGER,
 	preptime INTEGER,
-	cooktime INTEGER
+	cooktime INTEGER,
+	origin TEXT NOT NULL
 );
 
 CREATE TABLE packages (
@@ -32,7 +33,8 @@ INSERT INTO products (
 	rating,
 	servings,
 	preptime,
-	cooktime
+	cooktime,
+    origin
 )
 VALUES (
 	"Pancake",
@@ -53,7 +55,8 @@ VALUES (
 	4.8,
 	8,
 	5,
-	15
+	15,
+    "others"
 );
 
 INSERT INTO packages (
