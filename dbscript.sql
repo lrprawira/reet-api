@@ -78,6 +78,6 @@ INSERT INTO packages (
 VALUES (
     "Premium Pro",
     '{"benefits":["Premium Recipe","Full Access to Ingredient Delivery Service","Free Ingredient Pick","24/7 Online Support"]}',
-    120000
+    360000
  );
 
